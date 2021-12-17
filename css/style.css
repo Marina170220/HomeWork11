@@ -1,7 +1,8 @@
 /* Сперва общие правила */
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: Arial;
 }
 
 /* Потом селекторы по тегам */
@@ -15,7 +16,7 @@ main {
     margin: 0px auto;
 }
 
-p {font-family: Arial;
+p {
 font-size: 15px;
 line-height: 1.5;
 
@@ -23,14 +24,6 @@ line-height: 1.5;
 
 a {
 
-}
-
-h2 {
-font-family: Arial;
-}
-
-h3 {
-font-family: Arial;
 }
 
 /* Колонки */
@@ -70,10 +63,6 @@ border-radius: 5px;
 margin: 10px 0px 20px 0px;
 width: 100%;
 height: 50px;
-
-
-
-
 }
 
 
@@ -128,11 +117,22 @@ height: 40px;
 
 /* Страничка подписки  */
 
-.box-green {
+.box-green {background-color: #e1f5ea;
+border-radius: 5px;
+padding: 25px 0px 10px 20px;
+margin-bottom: 30px;
+width: 100%;
+height: 100px;
 
 }
 
-.box-purple {
+.box-purple {background-color: #ecdcf9;
+border-radius: 5px;
+padding: 25px 0px 10px 20px;
+margin-top: 40px;
+margin-bottom: 30px;
+width: 100%;
+height: 100px;
 
 }
 
