@@ -75,19 +75,40 @@ height: 50px;
 
 /* Страничка жанров и тегов */
 
-.genre-first {
+.genre-first {background-color: #e1f5ea;
+border-radius: 5px;
+padding: 10px 0px 10px 20px;
+margin-bottom: 20px;
+width: 100%;
+height: 40px;
+
 
 }
 
-.genre-second {
+.genre-second {background-color: #c9eeff;
+border-radius: 5px;
+padding: 10px 0px 10px 20px;
+margin-bottom: 20px;
+width: 80%;
+height: 40px;
 
 }
 
-.genre-third {
+.genre-third {background-color: #fdf1e5;
+border-radius: 5px;
+padding: 10px 0px 10px 20px;
+margin-bottom: 20px;
+width: 60%;
+height: 40px;
 
 }
 
-.genre-fourth {
+.genre-fourth {background-color: #ecdcf9;
+border-radius: 5px;
+padding: 10px 0px 10px 20px;
+margin-bottom: 20px;
+width: 50%;
+height: 40px;
 
 }
 
