@@ -29,11 +29,12 @@ font-family: Arial;
 
 /* Колонки */
 
-.row {
-
+.row {display: flex;
 }
-.col {
 
+.col {flex: auto;
+margin-right: 25px;
+margin-bottom: 25px;
 }
 
 
