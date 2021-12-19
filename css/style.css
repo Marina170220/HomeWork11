@@ -17,8 +17,8 @@ main {
 }
 
 p {
-font-size: 15px;
-line-height: 1.5;
+    font-size: 15px;
+    line-height: 1.5;
 
 }
 
@@ -28,127 +28,122 @@ a {
 
 /* Колонки */
 
-.row {display: flex;
+.row {
+    display: flex;
+    margin-bottom: 15px;
 }
 
 .col {flex: auto;
-margin-right: 25px;
-margin-bottom: 25px;
+
+
 }
 
 
 /* Потом селекторы по классам */
 
-.text-input {border: solid 2px #d2d9d5;
-border-radius: 5px;
-margin: 10px 0px 20px 0px;
-width: 100%;
-height: 50px;
+.text-input {
+    border: solid 2px #d2d9d5;
+    border-radius: 5px;
+    margin: 10px 0px 20px 0px;
+    width: 100%;
+    height: 50px;
 
 }
 
-.button {width: 40%;
-height: 40px;
-color: white;
-background-color: #5551ee;
-border-radius: 5px;
+.button {
+    width: 40%;
+    height: 40px;
+    color: white;
+    background-color: #5551ee;
+    border-radius: 5px;
 }
 
 /* Потом специальные правила по страничкам */
 
 /* Login*/
 
-.input-login {border: solid 2px #d2d9d5;
-border-radius: 5px;
-margin: 10px 0px 20px 0px;
-width: 100%;
-height: 50px;
+.input-login {
+    border: solid 2px #d2d9d5;
+    border-radius: 5px;
+    margin: 10px 0px 20px 0px;
+    width: 100%;
+    height: 50px;
 }
-
 
 /* Страничка жанров и тегов */
 
-.genre-first {background-color: #e1f5ea;
-border-radius: 5px;
-padding: 10px 0px 10px 20px;
-margin-bottom: 20px;
-width: 100%;
-height: 40px;
-
-
+.genre-first, .genre-second, .genre-third, .genre-fourth{
+    border-radius: 5px;
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 20px;
+    height: 40px;
 }
 
-.genre-second {background-color: #c9eeff;
-border-radius: 5px;
-padding: 10px 0px 10px 20px;
-margin-bottom: 20px;
-width: 80%;
-height: 40px;
+.genre-first {
+    background-color: #e1f5ea;
+    width: 100%;
+    }
 
-}
+.genre-second {
+    background-color: #c9eeff;
+    width: 80%;
+    }
 
-.genre-third {background-color: #fdf1e5;
-border-radius: 5px;
-padding: 10px 0px 10px 20px;
-margin-bottom: 20px;
-width: 60%;
-height: 40px;
+.genre-third {
+    background-color: #fdf1e5;
+    width: 60%;
+   }
 
-}
-
-.genre-fourth {background-color: #ecdcf9;
-border-radius: 5px;
-padding: 10px 0px 10px 20px;
-margin-bottom: 20px;
-width: 50%;
-height: 40px;
-
-}
+.genre-fourth {
+    background-color: #ecdcf9;
+    width: 40%;
+   }
 
 .tag {
-
+    color: #5551ee;
 }
 
 /* Страничка популярного */
 
 .cover {
-
+    width: 80%;
 }
 
 /* Страничка подписки  */
 
-.box-green {background-color: #e1f5ea;
-border-radius: 5px;
-padding: 25px 0px 10px 20px;
-margin-bottom: 30px;
-width: 100%;
-height: 100px;
+.box-green {
+    background-color: #e1f5ea;
+    border-radius: 5px;
+    padding: 25px 0px 10px 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100px;
 
 }
 
-.box-purple {background-color: #ecdcf9;
-border-radius: 5px;
-padding: 25px 0px 10px 20px;
-margin-top: 40px;
-margin-bottom: 30px;
-width: 100%;
-height: 100px;
+.box-purple {
+    background-color: #ecdcf9;
+    border-radius: 5px;
+    padding: 25px 0px 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100px;
 
 }
 
 .text-large {
-
+    font-size: 30px;
 }
 
-.button-link {width: 1000px;
-height: 500px;
-color: white;
-text-decoration: none;
-background-color: #5551ee;
-border-radius: 5px;
-padding: 10px 20px 10px 20px;
-margin: 5px 10px 5px 0px
+.button-link {
+    width: 1000px;
+    height: 500px;
+    color: white;
+    text-decoration: none;
+    background-color: #5551ee;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin: 5px 10px 5px 0px
 
 }
- .giant {font-size: 30px;
- }
